@@ -1,0 +1,34 @@
+body {
+    /* margin: 0 auto; */
+    /* max-width: 50em; */
+    fontfamily: "Helvetica", "Arial", sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table {
+    width: 100%;
+    margin-left: auto;
+}
+
+th {
+    height: 150px;
+    text-align: left;
+    vertical-align: top;
+}
+
+td {
+    
+}
+
+.nav {
+    background-color: #FFEE00;
+    flex: 1;
+}
