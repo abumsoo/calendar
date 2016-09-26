@@ -30,5 +30,6 @@ td {
 
 .nav {
     background-color: #FFEE00;
+    display: inline;
     flex: 1;
 }
