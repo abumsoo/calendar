@@ -8,8 +8,8 @@ h1 {
     text-align: center;
 }
 
-table, th, td {
-    border: 1px solid black;
+table, td {
+    /* border: 1px solid black; */
     border-collapse: collapse;
 }
 
@@ -18,18 +18,22 @@ table {
     margin-left: auto;
 }
 
-th {
+td {
+    border: 1px solid black;
     height: 150px;
     text-align: left;
     vertical-align: top;
 }
 
-td {
-    
-}
+/* #mode { */
+/*     float:right; */
+/* } */
 
-.nav {
-    background-color: #FFEE00;
+/* #month { */
+/*     flex-wrap: wrap; */
+/*     justify-content: center; */
+/* } */
+
+nav li {
     display: inline;
-    flex: 1;
 }
