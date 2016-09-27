@@ -1,21 +1,18 @@
 body {
-    /* margin: 0 auto; */
-    /* max-width: 50em; */
-    fontfamily: "Helvetica", "Arial", sans-serif;
+    margin: 1 auto;
+    /* max-width: 90%; */
+    font-family: "Courier New", "Helvetica", "Arial", sans-serif;
 }
 
 h1 {
     text-align: center;
 }
 
-table, td {
-    /* border: 1px solid black; */
-    border-collapse: collapse;
-}
-
 table {
     width: 100%;
     margin-left: auto;
+    border-collapse: collapse;
+    table-layout: fixed;
 }
 
 td {
@@ -25,14 +22,15 @@ td {
     vertical-align: top;
 }
 
-/* #mode { */
-/*     float:right; */
-/* } */
+.mode {
+    border: 1px solid black;
+    width: 10%;
+    float:right;
+}
 
-/* #month { */
-/*     flex-wrap: wrap; */
-/*     justify-content: center; */
-/* } */
+.mode th{
+    border: 1px solid black;
+}
 
 nav li {
     display: inline;
