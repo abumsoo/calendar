@@ -1,6 +1,6 @@
 body {
     margin: 1 auto;
-    /* max-width: 90%; */
+    max-width: 90%;
     font-family: 'Muli', "Helvetica", "Arial", sans-serif;
 }
 
@@ -32,14 +32,29 @@ td a {
     width: 100%;
 }
 
+th a {
+    color: black;
+    display: block;
+    height: 100%;
+    outline: 0;
+    text-decoration: none;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+th a:hover {
+    background-color: grey;
+}
+
 .inactive {
     color: #ababab;
 }
 
 .mode {
     border: 1px solid black;
-    width: 10%;
-    float:right;
+    width: 15%;
+    float: right;
 }
 
 .mode th{
