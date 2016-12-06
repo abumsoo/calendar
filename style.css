@@ -47,6 +47,10 @@ th a:hover {
     background-color: grey;
 }
 
+th .current{
+    background-color: grey;
+}
+
 .inactive {
     color: #ababab;
 }
